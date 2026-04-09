@@ -9,6 +9,7 @@ Sistema desenvolvido em TypeScript que simula o processo de produção de aerona
 🔧 Pré-requisitos
 Node.js (recomendado versão 16 ou superior)
 npm (já vem com o Node)
+
 📥 1. Clonar o repositório
 git clone <https://github.com/joao-luis-0/AV1>
 cd <AV1>
@@ -22,19 +23,17 @@ npm install -D @types/node
 ⚙️ 3. Configurar TypeScript (caso necessário)
 
 No arquivo tsconfig.json, verifique se existe:
-
 "types": ["node"]
+
 ▶️ 4. Executar o projeto
 npm start
-
 Ou:
-
 npx ts-node src/index.ts
 🔐 Login para teste
-Usuário	Senha
-admin	123
-eng	123
-op	123
+
+Usuário e Senha
+admin|123 -- eng|123 -- op|123
+
 🖥️ Menu
 1 - Exibir Aeronave
 2 - Adicionar Peça
@@ -46,6 +45,6 @@ op	123
 
 Ao gerar, será criado um arquivo relatorio.txt com os dados da aeronave.
 
-🛠️ Tecnologias
+🛠️ Tecnologias Usadas
 TypeScript
 Node.js
