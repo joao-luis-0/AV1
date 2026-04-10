@@ -1,50 +1,73 @@
-✈️ Sistema de Produção de Aeronaves
+# ✈️ Sistema de Produção de Aeronaves
 
-📌 Descrição
+## 📌 Descrição
 
-Sistema desenvolvido em TypeScript que simula o processo de produção de aeronaves, com controle de peças, etapas, testes e usuários.
+Sistema desenvolvido em **TypeScript + Node.js** que simula o processo de produção de uma aeronave, incluindo controle de peças, etapas, testes e funcionários com login.
 
-🚀 Instalação e execução
+---
 
-🔧 Pré-requisitos
-Node.js (recomendado versão 16 ou superior)
-npm (já vem com o Node)
+## 🛠️ Pré-requisitos
 
-📥 1. Clonar o repositório
-git clone <https://github.com/joao-luis-0/AV1>
+Antes de começar, você precisa ter instalado:
+
+* Node.js (versão 16 ou superior)
+* npm (já vem com o Node)
+
+---
+
+## 📥 Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone <https://github.com/joao-luis-0/AV1.git>
 cd <AV1>
+```
 
-📦 2. Instalar dependências
+2. Instale as dependências:
+
+```bash
 npm install
+```
 
-Se necessário, instale também os tipos do Node:
+3. Instale os tipos do Node (se necessário):
 
+```bash
 npm install -D @types/node
-⚙️ 3. Configurar TypeScript (caso necessário)
+```
 
-No arquivo tsconfig.json, verifique se existe:
-"types": ["node"]
+---
 
-▶️ 4. Executar o projeto
-npm start
-Ou:
+## ▶️ Como executar
+
+Execute o projeto com:
+
+
+```bash
 npx ts-node src/index.ts
-🔐 Login para teste
+```
 
-Usuário e Senha
-admin|123 -- eng|123 -- op|123
+---
 
-🖥️ Menu
-1 - Exibir Aeronave
-2 - Adicionar Peça
-3 - Adicionar Etapa
-4 - Adicionar Teste
-5 - Gerar Relatório
-0 - Sair
-📄 Relatório
+## 🔐 Login para teste
 
-Ao gerar, será criado um arquivo relatorio.txt com os dados da aeronave.
+| Usuário | Senha |
+| ------- | ----- |
+| admin   | 123   |
+| eng     | 123   |
+| op      | 123   |
 
-🛠️ Tecnologias Usadas
-TypeScript
-Node.js
+---
+
+
+## 📄 Relatório
+
+Ao gerar o relatório, será criado um arquivo:
+
+```bash
+relatorio.txt
+```
+
+Com os dados da aeronave, peças, etapas e testes.
+
+---
